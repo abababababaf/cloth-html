@@ -32,6 +32,7 @@ nav a {
 .container {
   display: flex;
   gap: 5%;
+  width: 80vh;
   justify-content: center;
   align-items: center;
 }
