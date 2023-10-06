@@ -38,9 +38,14 @@ nav a {
 
 .card {
   background-color: #b5cb99;
+
   width: 400px;
   text-align: center;
   border-radius: 10px;
+  padding: 15px;
+}
+.card:hover {
+  background-color: #666f5a;
 }
 .card-title {
   font-size: 3rem;
@@ -53,8 +58,7 @@ p {
 .card-anchor {
   border-radius: 10px;
   background-color: #b5cb99;
-  color: inherit;
-  text-decoration: inherit;
+  text-decoration: none;
   padding: 0px;
   margin: 4%;
 }
@@ -68,4 +72,14 @@ footer {
   color: #fff;
   text-align: center;
   padding: 10px;
+}
+
+@media (max-width: 900px) {
+  .container {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  footer {
+    position: inherit;
+  }
 }
