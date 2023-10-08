@@ -15,6 +15,23 @@ body {
   background-color: #fce09b;
 }
 
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
 header {
   background-color: #186f65;
   color: #fff;
@@ -22,9 +39,13 @@ header {
   padding: 20px;
 }
 
+h1 {
+  margin-bottom: 10px;
+  font-size: 3rem;
+}
+
 main {
   display: flex;
-
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
